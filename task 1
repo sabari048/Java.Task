@@ -1,0 +1,10 @@
+import java.util.Date
+enum Event_type 
+{
+   MOVIE, SPORTS, CONCERT
+}
+ private String event_name;
+ private Date event_date;
+ private Time event_time;
+ private String venue_name;
+ private int total_seats;
